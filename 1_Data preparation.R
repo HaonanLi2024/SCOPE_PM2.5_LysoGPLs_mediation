@@ -1,4 +1,4 @@
-setwd("C:\\Users\\admin\\Desktop\\李不怕呀\\Data & Writing\\LPA et al\\20231124 update_文章1修改稿")
+setwd("C:\\Users\\admin\\Desktop\\李不怕呀\\Data & Writing\\LPA et al\\SCOPE\\20231124 update_文章1修改稿")
 
 rawdata_a<-read.csv("2. scope  imp and health - 李浩楠.csv",header=TRUE,as.is=c("date"))#访视数据
 str(rawdata_a)#检查变量数据类型（especially日期），核对observation、variable的数量，缺失值情况!
