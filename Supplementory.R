@@ -93,31 +93,6 @@ for(i in 1:length(biomarkers)){
   a<-a+1
 }
 
-#更改结果表格中biomarkers的名字
-resultofLMM$Biomarker[resultofLMM$Biomarker=="LPA.22.6"]<-"LPA 22:6"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="LPA.20.3"]<-"LPA 20:3"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="LPA.20.4"]<-"LPA 20:4"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="LPA.18.0"]<-"LPA 18:0"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="LPA.18.1"]<-"LPA 18:1"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="LPA.18.2"]<-"LPA 18:2"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="LPA.16.0"]<-"LPA 16:0"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="cPA.18.1"]<-"cPA 18:1"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="cPA.16.0"]<-"cPA 16:0"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="LysoPAF.C18"]<-"LPC(O) 18:0"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="LysoPAF.C18.1"]<-"LPC(O) 18:1"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="LysoPAF.C16"]<-"LPC(O) 16:0"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="LPG.18.0"]<-"LPG 18:0"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="LPG.18.1"]<-"LPG 18:1"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="LPG.16.0"]<-"LPG 16:0"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="LPG.16.1"]<-"LPG 16:1"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="LysoPS.18.0"]<-"LysoPS 18:0"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="LysoPS.18.1"]<-"LysoPS 18:1"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="IL_8_5p"]<-"IL-8"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="MCP_1_5p"]<-"MCP-1"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="ifn_s"]<-"IFN-γ"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="sCD40L_5p"]<-"sCD40L"
-resultofLMM$Biomarker[resultofLMM$Biomarker=="nonhdl"]<-"Non-HDL-C"
-
 #为结果增加是否显著列
 resultofLMM<-data.frame(resultofLMM)
 resultofLMM$effect.mean<-as.numeric(resultofLMM$effect.mean)
