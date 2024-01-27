@@ -12,7 +12,7 @@ This study aims to investigate whether LysoGPLs mediate pro-atherosclerotic effe
 
 SCOPE was a panel study conducted in Beijing between August 2013 and  February 2015, with the primary aim of investigating the potential adverse effect of air pollution exposure on cardiometabolic biomarkers. The study recruited 120 participants aged 50 to 65 without a history of cardiovascular disease, residing in communities nearby Peking University campus. At enrollment, baseline demographic, and socioeconomic parameters of the participants were collected.
 
-During the study period, each participant underwent up to seven repeated clinic visits at Peking University Hospital on the campus. Blood samples were collected.&#x20;
+During the study period, ambient air pollutants were monitored, and each participant underwent up to seven repeated clinic visits at Peking University Hospital on the campus. Blood samples were collected.&#x20;
 
 The datasets used in the present analysis are as following:
 
@@ -52,7 +52,7 @@ Table 1 Characteristics of the study participants at baseline.
 
 Table 2 Concentrations of pro-atherosclerotic biomarkers and lysoglycerophospholipids in the study participants.
 
-Table 3 Levels of PM2.5 and meteorological parameters during the preceding 1 to 30 days before the clinical visits.
+Table 3 Levels of fine particulate matter and meteorological parameters during the preceding 1 to 30 days before the clinical visits.
 
 Figure 1 Percent changes in pro-atherosclerotic biomarkers and lysoglycerophospholipids per 10 μg/m3 increment of average PM2.5 1-30 days before clinical visits.
 
